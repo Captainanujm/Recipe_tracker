@@ -1,0 +1,49 @@
+ body{
+    background-color: rgb(0, 8, 8);
+ }
+ .mainHead{
+   font-family: cursive;
+  background-color: rgb(54, 70, 115);
+  width: 320px;
+  height: 50px;
+   text-align: center;
+  font-size: 30px;
+  margin-top: 70px;
+  border: 2px solid;
+  border-radius: 20px;
+ }
+ .MyApp{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center; 
+    justify-content: center;
+    position:absolute;
+    top:180px;
+    left:400px;
+    
+ }
+
+.navi{
+    height: 100px;
+    width: 500px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(54, 70, 115);
+
+}
+ .card{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(54, 70, 115);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+} 
+ .wrapdo{
+    display: flex;
+    gap:20px;
+ }
